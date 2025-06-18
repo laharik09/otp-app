@@ -23,7 +23,7 @@ app.post('/send-otp', async(req, res) => {
         service: 'gmail',
         auth: {
             user: 'kappirilaharikrishna@gmail.com', // Replace with your Gmail
-            pass: 'sbmp fipj iqbj hmnm'
+            pass: 'sbmp fipj iqbj hmnm' // Replace with your pass key
         }
     });
 
