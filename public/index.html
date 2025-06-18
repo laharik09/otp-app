@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Email OTP Verification</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section>
+        <p id="message" class="hidden"></p>
+
+        <div class="container">
+            <h1>Email OTP</h1>
+            <input id="email" type="email" placeholder="Enter Your Email">
+            <button onclick="sendOTP()">Send OTP</button>
+
+            <div id="verify-section" style="display:none;">
+                <input id="otp" type="text" placeholder="Enter OTP">
+                <button onclick="verifyOTP()">Verify</button>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>
